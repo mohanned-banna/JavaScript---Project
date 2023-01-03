@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #nameInput {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  #generateButton,
+  #clearButton {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00b8d4;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #tagsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .nameTag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: #eee;
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  .nameTag p {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .deleteIcon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+  }
+footer{
+  position: relative;
+  top: 75%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
